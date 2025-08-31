@@ -3,11 +3,8 @@
   home.file.".config/hypr/hyprlock.conf".text = ''
     background {
       monitor = LVDS-1
-<<<<<<< HEAD
       path = ${config.home.homeDirectory}/Pictures/Wallpapers/wlp3.png
-=======
       path = ${config.home.homeDirectory}/Pictures/Wallpapers/wlp4.png
->>>>>>> e9ebf8a (первые кости для будущих страданий)
       blur_passes = 3
       blur_size = 5
     }

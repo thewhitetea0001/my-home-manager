@@ -21,11 +21,8 @@
         kb_layout = us,ru,ua
         kb_variant =
         kb_model =
-<<<<<<< HEAD
         kb_options =grp:alt_shift_toggle
-=======
         kb_options = grp:alt_shift_toggle
->>>>>>> e9ebf8a (первые кости для будущих страданий)
         kb_rules =
 
         follow_mouse = 1
@@ -87,19 +84,13 @@
         gaps_in = 4
         gaps_out = 7
         border_size = 0
-<<<<<<< HEAD
-=======
         col.active_border = rgba(d49c24ff)
->>>>>>> e9ebf8a (первые кости для будущих страданий)
     }
 
     decoration {
         active_opacity = 1.0
-<<<<<<< HEAD
         inactive_opacity = 0.8
-=======
         inactive_opacity = 0.9
->>>>>>> e9ebf8a (первые кости для будущих страданий)
         shadow {
             enabled = true
             range = 4

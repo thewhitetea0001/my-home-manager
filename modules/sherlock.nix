@@ -86,11 +86,8 @@
     [weather]
     enable = true
     provider = "openweathermap"
-<<<<<<< HEAD
-    api_key = "твой_API_ключ"
-=======
+    api_key = "i dont have :("
     api_key = "eab10b1c947a4fea9f2131359253108"
->>>>>>> e9ebf8a (первые кости для будущих страданий)
     units = "metric"
     city = "Bratislava"
   '';

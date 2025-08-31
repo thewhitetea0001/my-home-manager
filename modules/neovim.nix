@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-{ ... }:
-=======
 { self, ... }:
->>>>>>> e9ebf8a (первые кости для будущих страданий)
 {
   programs.nixvim = {
     enable = true;
@@ -16,10 +12,6 @@
       expandtab = true;
     };
 
-<<<<<<< HEAD
-    colorschemes.catppuccin.enable = true;
-    plugins.lualine.enable = true;
-=======
     colorschemes.gruvbox.enable = true;
     
     plugins = {
@@ -52,6 +44,5 @@
       enable = true;
       autoEnableSources = true;
     };
->>>>>>> e9ebf8a (первые кости для будущих страданий)
   };
 }
