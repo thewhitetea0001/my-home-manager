@@ -44,7 +44,7 @@
           format = " {}";
           format-en = "english";
           format-ru = "russian";
-          format-Uksanian = "ukraine";
+          format-uk = "ukranian";
           keyboard-name = "at-translated-set-2-keyboard";
         };
 

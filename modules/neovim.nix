@@ -15,9 +15,20 @@
     colorschemes.gruvbox.enable = true;
     
     plugins = {
+      nvim-tree.enable = true;
       lualine.enable = true;
       treesitter.enable = true;
+      web-devicons.enable = true;
+      mini.enable = true;
+      mini.modules.icons.enable = true;
     };
+
+    keymaps = [
+      {
+        key = ";";
+        action = "<cmd>NvimTreeOpen<CR>";
+      }
+    ];
 
     # === Plugins Config === #
 

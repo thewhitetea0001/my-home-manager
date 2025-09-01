@@ -14,6 +14,7 @@
     windsurf
     python3
     ranger
+    gource
     sassc
     rustc
     cargo
