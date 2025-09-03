@@ -4,6 +4,7 @@
     allowUnfree = true;
   };
   home.packages = with pkgs; [
+    twemoji-color-font
     sherlock-launcher
     bibata-cursors
     wine-staging
