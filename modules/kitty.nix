@@ -6,6 +6,8 @@
       confirm_os_window_close = 0;
       cursor_trail = 3;
 
+      background_opacity = 0.9;
+
       foreground = "#EAEAEA";
       background = "#2B2B2B";
       selection_foreground = "#2B2B2B";
