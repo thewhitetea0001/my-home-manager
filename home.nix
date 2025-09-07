@@ -9,8 +9,8 @@ in {
 
   imports = [
     ./packages.nix
-    ./modules/sherlock.nix
 
+    # themed
     ./modules/${theme}/bashrc.nix
     ./modules/${theme}/kitty.nix
     ./modules/${theme}/neovim.nix
@@ -22,7 +22,6 @@ in {
 
   # other
   programs.home-manager.enable = true;
-  programs.fish.enable = true;
 
   home.pointerCursor = {
     gtk.enable = true;

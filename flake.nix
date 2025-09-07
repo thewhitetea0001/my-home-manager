@@ -2,13 +2,20 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
+
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
   };
-  outputs = { nixpkgs, home-manager, nixvim, ... }:
+  outputs = { 
+    nixpkgs,
+    home-manager,
+    nixvim,
+    ... 
+  }:
   let
     system = "x86_64-linux";
   in {

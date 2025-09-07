@@ -4,7 +4,6 @@
     allowUnfree = true;
   };
   home.packages = with pkgs; [
-    sherlock-launcher
     bibata-cursors
     fastfetch
     nwg-look
@@ -15,16 +14,13 @@
     vesktop
     python3
     gnumake
+    flatpak
     ranger
     gource
     unzip
-    sassc
-    rustc
-    cargo
     cmake
     curl
     tree
-    swww
     tree
     swww
     gtk4
